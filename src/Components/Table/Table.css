@@ -1,0 +1,62 @@
+/* style.css */
+.btn-select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;;
+    padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+    font-size: 1rem;
+    fontWeight: 40;
+    lineHeight: 1.5;
+    color: #212529;
+    background: linear-gradient(rgb(229,228,228), white);
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    appearance: none;
+}
+
+.drop-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 230px;
+    overflow: hidden;
+    overflow-y: scroll;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 2px 5px lightgrey;
+}
+
+.drop-menu::-webkit-scrollbar { width: 0; }
+
+
+.drop-item {
+    display: flex;
+    width: 100%;
+    min-height: 38px;
+    background: white;
+    padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    appearance: none;
+}
+
+.drop-item--current {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.submit-btn {
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(204, 204, 204);
+    margin-left: auto;
+}

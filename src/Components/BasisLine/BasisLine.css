@@ -1,0 +1,38 @@
+.radius {
+    position: absolute;
+    top: 15px;
+    right: 36px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.header--green {
+    border: 1px solid rgb(149, 182, 123);
+    background: rgb(218, 231, 214);
+}
+.header--blue {
+    border: 1px solid rgb(128, 151, 193);
+    background: rgb(221, 231, 250);
+}
+.header--purple {
+    border: 1px solid rgb(145, 116, 163);
+    background: rgb(223, 213, 230);
+}
+
+.body {
+    border: 1px solid rgb(218, 231, 214);
+    border-top: none;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.body--green {
+    border-color: rgb(218, 231, 214);
+}
+.body--blue {
+    border-color: rgb(128, 151, 193);
+}
+.body--purple {
+    border-color: rgb(145, 116, 163);
+}
